@@ -1,4 +1,5 @@
-.cuerpo-1 {
+html {
+  scroll-behavior: smooth;
   background-color: beige;
 }
 
@@ -11,5 +12,15 @@
   cursor: pointer;
 }
 
-.css-descrip {
+.programacion-front {
+  background-color: red;
+}
+
+.piso-pagina {
+  text-align: center;
+}
+
+.nombre {
+  font-family: helvetica;
+  font-style: italic;
 }
