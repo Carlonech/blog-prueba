@@ -7,20 +7,31 @@ html {
   text-align: center;
 }
 
+.nav {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-nav {
+  background-color: bisque;
+  border-radius: 100vmax;
+  transition: 0.2s;
+  cursor: pointer;
+  padding: 0.75rem;
+}
+
 .menu-principal {
   text-align: left;
   cursor: pointer;
 }
 
-.programacion-front {
-  background-color: red;
-}
-
 .piso-pagina {
+  background-color: yellowgreen;
   text-align: center;
-}
-
-.nombre {
-  font-family: helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
+  font-size: 25px;
 }
